@@ -1,10 +1,10 @@
 # Final Project Report 
 
 ## Table of Contents:
-# 1. [Introduction](introduction)
-# 2. [Methods](methods)
-# 3. [Model](model)
-# 4. [Discussion](discussion)
+# 1. [Introduction](#introduction)
+# 2. [Methods](#methods)
+# 3. [Model](#model)
+# 4. [Discussion](#discussion)
 
 # Introduction
 
