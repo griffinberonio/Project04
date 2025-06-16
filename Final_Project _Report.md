@@ -10,7 +10,7 @@
 
 This project aims to use the Random Forest Regression machine learning algorithm from Sklearn to predict the level of renewable energy consumption as a percentage of total energy consumption in the United States in a given year. The data that I've collected for this project comes from the [World Bank's World Development Indicators data portal](https://databank.worldbank.org/reports.aspx?source=2&series=EG.FEC.RNEW.ZS&country=). My primary goal was to train a random forest regression model that can return a numerical estimate of the renewable energy consumption variable with an R-Squared accuracy score of over 0.75 using relevant variables from the World Bank's data. 
 
-The code and relevant files for this project are available at this [Github Repository](...). 
+The code and relevant files for this project are available at this [Github Repository](https://github.com/griffinberonio/Project04). 
 
 # Methods 
 The variables I chose to include in the model were pulled from the World Bank's API using a series of search term queries. The open access python package ["wbgapi"](https://pypi.org/project/wbgapi/) was used to facilitate the collection process. The search terms I used were as follows: energy, population, Education, emissions, interest', 'Technology', 'infrastructure', 'transport' 'internet', 'income share', 'investment in', 'Control of Corruption', 'Regulatory Quality:', 'FP.CPI.TOTL.ZG' (which provides an annual estimate of inflation based on the Consumer Price Index), and 'GDP'. 
